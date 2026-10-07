@@ -1,0 +1,494 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+.menu-icon {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.menu {
+  background: #fff;
+  padding: 9px 20px;
+}
+
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #000;
+}
+
+/* INTRO */
+
+#intro {
+  background: url(imagenes/back.jpg);
+  text-align: center;
+  height: 60vh;
+  margin-top: -60px;
+  background-size: cover;
+  background-position: 57% 48%;
+}
+
+#intro h1 {
+  font-family: 'Playfair Display';
+  font-size: 72px;
+  color: #fff;
+  font-weight: normal;
+  padding-top: 60px;
+}
+
+#intro p {
+  color: #bfbfbf;
+  font-size: 18px;
+  line-height: 36px;
+  width: 60%;
+  margin: auto;
+}
+
+#intro .menu {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 9px;
+  background: transparent;
+}
+
+#intro .reservation {
+  color: #fff;
+  padding: 9px;
+  background: #c39d63;
+}
+
+#intro .button-group {
+  margin-top: 50px;
+}
+
+#intro .button-group a {
+  margin-right: 20px;
+  padding: 9px 23px;
+}
+
+/* OUR STORY */
+
+#our-story {
+  padding: 90px 0;
+}
+
+#our-story .container {
+  display: flex;
+  justify-content: center;
+}
+
+.our-story {
+  color: #bfbfbf;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+hr {
+  width: 40px;
+  float: left;
+  border-color: #C29D63;
+}
+
+#our-story h2, #testimonials h2 {
+  margin-top: 50px;
+  font-size: 48px;
+  font-family: 'Playfair Display';
+  font-weight: 300;
+}
+
+#our-story .text, .testimonial .text {
+  font-size: 17px;
+  color: #939393;
+  line-height: 30px;
+  width: 88%;
+}
+
+#our-story .left-column {
+  width: 45%;
+}
+
+/* MENU */
+
+#menu {
+  background: #1F1F1F;
+}
+
+#menu .photo {
+  background: url(imagenes/cangrejo.png);
+  width: 300px;
+  height: 285px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu .first-row div, #menu .second-row div {
+  display: inline-block;
+  width: 33.1%;
+}
+
+#menu .first-row, #menu .second-row {
+  background: #fff;
+  text-align: center;
+}
+
+#menu li {
+  list-style: none;
+}
+
+#menu .price {
+  color: #C29D62;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#menu .title {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-weight: 100;
+}
+
+#menu .description {
+  color: #939393;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+#menu .mushrooms {
+  background: url(imagenes/hongos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -11px;
+  left: -14px;
+}
+
+#menu .fish {
+  background: url(imagenes/pez.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -11px;
+  right: -14px;
+}
+
+#menu .container {
+  max-width: 1130px;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu .text {
+  position: relative;
+  top: -30px;
+}
+
+#menu .second-row {
+  height: 275px;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+  text-align: center;
+  background: #F7F7F7;
+  padding: 90px 0;
+}
+
+#testimonials .title {
+  color: #bfbfbf;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+#testimonials hr {
+  width: 40px;
+  float: none;
+  font-weight: 700;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonial {
+  width: 25%;
+  text-align: left;
+}
+
+.testimonial img {
+  width: 55%;
+}
+
+#testimonials .container {
+  max-width: 1150px;
+}
+
+/* CONTACTO */
+
+#contact {
+  background: url(imagenes/restaurant.jpg);
+  color: #fff;
+  text-align: center;
+  padding: 90px 0;
+}
+
+#contact .container {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .left-column, #contact .right-column {
+  background: #1F1F1F;
+  padding: 77px 29px;
+}
+
+#contact .left-column {
+  margin-right: 40px;
+}
+
+#contact ul {
+  border-bottom: 2px solid #C29D62;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+ul#last-schedule {
+  border-bottom: 0px;
+}
+
+#contact ul li {
+  list-style: none;
+  font-size: 15px;
+}
+
+#contact h2 {
+  font-family: 'Playfair Display';
+  font-size: 32px;
+  font-weight: 100;
+}
+
+#contact ul li:nth-child(1) {
+  font-weight: bold;
+}
+
+#contact a {
+  color: #fff;
+  padding: 9px;
+  background: #c39d63;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#contact h3 {
+  font-size: 23px;
+  font-weight: 100;
+  margin: 0;
+}
+
+#contact .right-column p {
+  opacity: 0.8;
+  width: 70%;
+  margin: auto;
+}
+
+#contact .right-column a {
+  padding: 9px 12px;
+}
+
+#contact h3.news {
+  margin-top: 67px;
+}
+
+#contact form {
+  margin-top: 25px;
+}
+
+input[type="text"] {
+  width: 72%;
+  border: 0;
+  background: #111111;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  color: #cdcdcd;
+}
+
+::-ms-input-placeholder {
+  color: #cdcdcd;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 79%;
+  margin: auto;
+  border: 0;
+  background: #C29D63;
+  color: #fff;
+  padding: 11px 0;
+  font-size: 16px;
+}
+
+#contact .left-column, #contact .right-column {
+  width: 35%;
+}
+
+#contact .right-column {
+  padding: 99px 0px;
+  width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    position: absolute;
+    top: 93px;
+    left: 0;
+    background: #000;
+    width: 100%;
+    display: none;
+}
+
+nav ul li {
+  display: block;
+  margin-bottom: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+.menu-icon {
+  display: block;
+}
+
+header .logo {
+    font-size: 20px;
+}
+
+#intro {
+  margin-top: -35px;
+}
+
+#intro h1 {
+  font-size: 37px;
+}
+
+#intro p {
+    color: #bfbfbf;
+    font-size: 13px;
+    line-height: 29px;
+    width: 100%;
+    margin: auto;
+}
+
+#our-story .container {
+  flex-direction: column;
+}
+
+#our-story .left-column {
+    width: 100%;
+}
+
+#our-story .right-column img {
+  width: 100%;
+}
+
+#menu .first-row div, #menu .second-row div {
+    display: block;
+    width: 100%;
+}
+
+#menu #second-text {
+    position: relative;
+    top: 18px;
+}
+
+.second-row .mushrooms {
+  width: 100% !important;
+  top: 30px !important;
+left: 0px !important;
+}
+
+#menu {
+    background: #1F1F1F;
+    height: 1625px;
+}
+
+#menu #third-text {
+  width: 100% !important;
+  top: 52px;
+}
+
+.second-row .fish {
+  width: 100% !important;
+  top: 25px !important;
+left: 0px;
+}
+
+#menu .second-row {
+    height: 623px;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.testimonial {
+  width: 100%;
+}
+
+#contact .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contact .left-column, #contact .right-column {
+    width: 81%;
+}
+
+.right-column {
+    width: 98% !important;
+    margin-top: 57px;
+}
+
+}
